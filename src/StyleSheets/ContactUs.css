@@ -1,0 +1,243 @@
+.contactUs-container {
+  font-family: sans-serif;
+  display: flex;
+  width: 1100px;
+  margin: auto;
+  margin-top: 7rem;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 4rem;
+}
+.callUs-side {
+  flex: 1;
+  border-radius: 10px;
+  position: relative;
+}
+
+.callUs-details {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  border-radius: 5px;
+  width: 90%;
+  height: 250px;
+  background-color: #f9f9f9;
+  text-align: center;
+  margin: auto;
+}
+.calls {
+  position: relative;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px;
+  color: #343a40;
+  margin: 5%;
+}
+.getCallBack-side {
+  flex: 1;
+  border-radius: 10px;
+}
+.form-verticalLine {
+  width: 1.5px;
+  background-color: #dacece;
+}
+.form-heading {
+  font-family: sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  color: #000000;
+  text-align: center;
+  margin: 20px 0;
+}
+.inputBox {
+  border: 1px solid #aaaaaa;
+  padding: 0 5px;
+  font-size: 16px;
+  border-radius: 0.25rem;
+  width: 400px;
+  margin-bottom: 1rem;
+  height: calc(1.7em + 0.75rem + 2px);
+}
+.inputBox:focus {
+  outline: none;
+  box-shadow: rgba(0, 132, 255, 0.458) 0px 0px 0px 2px;
+}
+.formLabel {
+  font-size: 15px;
+  line-height: 20px;
+  color: #666666;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 2px;
+}
+.formSubmit-btn {
+  color: #ffffff;
+  line-height: 25px;
+  font-size: 17px;
+  font-weight: 200;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: Raleway;
+  background-color: #007bff;
+  width: 50%;
+  margin-left: 7rem;
+  cursor: pointer;
+  border: none;
+}
+.formSubmit-btn:hover {
+  background-color: #0071e9d6;
+  transition: all 0.35s ease-in-out;
+}
+
+/* Media query for iPad Start... */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .contactUs-container {
+    display: flex;
+    width: 100%;
+    margin-top: 6.3rem;
+  }
+  .callUs-side {
+    padding-bottom: 2.2em;
+    border-radius: 0;
+  }
+  .callUs-details {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    width: 90%;
+    height: 200px;
+    margin: auto;
+  }
+  .calls {
+    position: relative;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 34px;
+
+    padding: 0;
+    margin: 6% 2%;
+  }
+  .getCallBack-side {
+    margin-top: 1.5rem;
+    margin-right: 15px;
+  }
+  .form-heading {
+    margin-top: 0;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+  }
+  .form-row {
+    margin: 0;
+    width: 100%;
+  }
+
+  .inputBox {
+    font-size: 14px;
+    border-radius: 0.25rem;
+    width: 70%;
+    margin-bottom: 1rem;
+    height: calc(1.7em + 0.75rem + 2px);
+  }
+  .formSubmit-btn {
+    color: #ffffff;
+    line-height: 25px;
+    font-size: 17px;
+    font-weight: 200;
+    padding: 8px 20px;
+    border-radius: 10px;
+    font-family: Raleway;
+    background-color: #007bff;
+    width: 100%;
+    margin-left: 0;
+    border: none;
+  }
+}
+
+/* Media query for iPad End... */
+
+/* Media query for Phone Start... */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .contactUs-container {
+    display: block;
+    width: 100%;
+    margin-top: 4.3rem;
+  }
+  .callUs-side {
+    position: static;
+    border-bottom: 1px solid #c5c5c5;
+    padding-bottom: 2.2em;
+    border-radius: 0;
+  }
+  .callUs-details {
+    position: static;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: auto;
+  }
+  .calls {
+    position: static;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 34px;
+
+    padding: 0;
+    margin: 0;
+  }
+  .getCallBack-side {
+    width: 95%;
+    margin: 1.5rem auto;
+  }
+  .form-heading {
+    margin-top: 0;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+  }
+  .form-row {
+    margin: 0;
+    width: 100%;
+  }
+
+  .inputBox {
+    font-size: 14px;
+    border-radius: 0.25rem;
+    width: 70%;
+    margin-bottom: 1rem;
+    height: calc(1.7em + 0.75rem + 2px);
+  }
+  .formSubmit-btn {
+    color: #ffffff;
+    line-height: 25px;
+    font-size: 17px;
+    font-weight: 200;
+    padding: 8px 20px;
+    border-radius: 10px;
+    font-family: Raleway;
+    background-color: #007bff;
+    width: 100%;
+    margin-left: 0;
+    border: none;
+  }
+}
+
+/* Media query for Phone End... */

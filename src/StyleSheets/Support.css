@@ -1,0 +1,200 @@
+.supportMain-container {
+  font-weight: 600;
+  font-size: 32px;
+  width: 85%;
+  margin: auto;
+  font-family: sans-serif;
+}
+.mainHeading-div {
+  width: 100%;
+  margin: 90px auto;
+}
+.support-heading {
+  color: #4a4a4a;
+  font-size: 37px;
+  line-height: 44px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.support-heading-blue {
+  color: #27b5ef;
+}
+.support-heading-line {
+  width: 235px;
+  height: 5px;
+  background-color: #2ac3ff;
+}
+.support-main {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  gap: 10rem;
+}
+.support-left-heading {
+  color: #4a4a4a;
+  font-size: 30px;
+  line-height: 36px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.support-left-side {
+  flex: 3;
+  background-color: #efefef;
+  padding: 26px;
+}
+.support-right-side {
+  flex: 2;
+  background-color: #efefef;
+  padding: 26px;
+}
+.support-brands-main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 2rem 0;
+}
+.support-brands {
+  padding: 10px;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.printerImg-div {
+  width: 200px;
+  height: 100px;
+  margin: auto;
+}
+.printers {
+  height: 100%;
+  width: 100%;
+}
+.support-answer {
+  color: #4a4a4a;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.selected-printer-div {
+  background-color: #27b5ef;
+  width: 90%;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: none;
+  margin: 3rem 0;
+}
+.selected-printer-div > h5 {
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 23px;
+  font-family: sans-serif;
+  color: #ffffff;
+}
+.support-bottom-div {
+  width: 100%;
+  text-align: center;
+  margin: 3rem 0 1rem 0;
+}
+.support-bottom-div > h5 {
+  color: #a5a3a3;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.support-call-link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* Media query for phones Start... */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .supportMain-container {
+    width: 96%;
+  }
+  .support-main {
+    width: 100%;
+    display: block;
+  }
+  .support-heading-line {
+    display: none;
+  }
+  .support-brands-main {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 17px;
+    margin: 2rem 0;
+  }
+  .support-left-side {
+    padding: 15px 5px;
+  }
+  .support-left-heading {
+    color: #000000;
+    line-height: 24px;
+    font-size: 20px;
+    padding: 0;
+    text-align: justify;
+  }
+  .support-brands-main {
+    padding: 5px 10px;
+  }
+  .printerImg-div {
+    height: 70px;
+    width: 140px;
+  }
+  .support-answer {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .selected-printer-div > h5 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .support-bottom-div > h5 {
+    font-size: 17px;
+  }
+  .support-left-side {
+    margin-bottom: 20px;
+  }
+  .mainHeading-div {
+    width: 100%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 45px;
+  }
+}
+/* Media query for phones End here... */
+
+/* Media query for iPad Start... */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .supportMain-container {
+    width: 93%;
+  }
+  .support-main {
+    gap: 1.5rem;
+  }
+  .support-left-side {
+    flex: 3;
+  }
+  .support-right-side {
+    flex: 1;
+  }
+  .printerImg-div {
+    height: 50px;
+    width: 110px;
+  }
+
+  .selected-printer-div > h5 {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .support-answer,
+  .support-left-heading {
+    font-size: 22px;
+    line-height: 26px;
+  }
+}
+
+/* Media query for iPad End... */

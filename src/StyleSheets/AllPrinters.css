@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.allPrinters-container {
+  width: 100%;
+
+  margin: auto;
+  margin-top: 100px;
+}
+.printer-desc-cont {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  gap: 1rem;
+}
+.printer-desc-cont > div {
+  height: 400px;
+}
+.printer-desc-cont-left {
+  flex: 3;
+  display: flex;
+  gap: 1.5rem;
+  background-color: #f8f9fa;
+  padding: 0.8em;
+  height: fit-content;
+}
+.printer-desc-cont-right {
+  flex: 1;
+  position: relative;
+}
+.printer-desc-imgDiv {
+  flex: 2;
+  position: relative;
+}
+.printer-desc-div {
+  flex: 5;
+}
+.printer-desc-img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+.printer-name-bold {
+  font-size: 23px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #246ebd;
+  line-height: 33px;
+}
+.printer-name-normal {
+  font-size: 23px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #246ebd;
+  line-height: 33px;
+}
+
+.printer-desc-table {
+  border-collapse: collapse;
+}
+.printer-table-cells {
+  border: 1px solid #dddddd;
+  padding: 15px;
+  font-size: 15px;
+  line-height: 30px;
+  color: #212529;
+  font-weight: 400;
+  text-align: start;
+}
+.printer-support-btnsDiv {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  height: fit-content;
+}
+.printer-support-btnsDiv > button {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #fff;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 15px 0;
+  background-color: #3c99dc;
+  text-align: center;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.popular-printer-section {
+  width: 75%;
+
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  margin: 50px auto;
+  border-radius: 5px;
+  padding: 1.2em 1.2em 3.7em 1.2em;
+}
+.popular-printer-section-heading {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  color: #373737;
+  padding: 6px 0 10px 0;
+}
+.popular-printers-div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+.popular-printers-div > div {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  border-radius: 5px;
+}
+.popular-printer-card {
+  padding: 10px;
+  text-align: center;
+}
+.popular-printer-about {
+  padding: 3em 0;
+}
+.popular-printer-card > img {
+  width: 100%;
+}
+.printer-view-title {
+  font-size: 20px;
+  line-height: 24px;
+  color: #0e2b3dd7;
+  font-weight: 600;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+.printer-view-details {
+  font-size: 15px;
+  line-height: 35px;
+  color: #0e2b3dd7;
+  font-weight: 600;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+.printer-view-details > i {
+  font-weight: 800;
+  font-size: 18px;
+}
+
+/* Media query for phone Start... */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .allPrinters-container {
+    width: 100%;
+  }
+  .printer-desc-cont {
+    display: none;
+  }
+  .printer-desc-cont-left {
+    display: none;
+  }
+  .printer-desc-imgDiv {
+    display: none;
+  }
+
+  .popular-printer-section {
+    width: 95%;
+  }
+  .popular-printers-div {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+}
+/* Mediq query for phone End... */
+
+/* Media query for iPad Start Here... */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .allPrinters-container {
+    width: 100%;
+  }
+
+  .printer-desc-div {
+    display: block;
+  }
+  .printer-desc-cont {
+    width: 100%;
+    height: auto;
+  }
+  .printer-desc-cont > div {
+    height: fit-content;
+  }
+  .printer-desc-cont-left {
+    height: fit-content !important;
+  }
+  .printer-table-cells {
+    padding: 10px;
+  }
+  .printer-desc-cont {
+    display: block;
+  }
+  .printer-desc-imgDiv {
+    flex: 3;
+  }
+
+  .printer-support-btnsDiv {
+    display: flex;
+    gap: 15px;
+    width: 90%;
+    margin: 1.3rem auto;
+  }
+  .printer-support-btnsDiv > button {
+    padding: 8px;
+    font-size: 16px;
+    line-height: 30px;
+    margin: auto;
+  }
+  .printer-name-bold {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #246ebd;
+  }
+  .printer-name-normal {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #246ebd;
+  }
+
+  .popular-printer-section {
+    width: 95%;
+    margin-top: 6rem;
+  }
+
+  .popular-printers-div {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+/* Mediq query for iPad End Here... */

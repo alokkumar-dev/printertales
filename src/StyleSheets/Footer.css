@@ -1,0 +1,180 @@
+.footer-container {
+  width: 72%;
+  display: grid;
+  margin: auto;
+  padding-bottom: 1.7em;
+  border-bottom: 1px solid #ffffff;
+  gap: 2.5rem;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(410px 186px 300px 320px);
+}
+
+.printertales-side {
+  flex: 4;
+}
+.company-side {
+  flex: 2;
+}
+.issue-side {
+  flex: 4;
+}
+.contact-side {
+  flex: 2;
+}
+.footer-heading {
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 29px;
+  margin: 15px 0;
+}
+.about-footer {
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  color: #ffffff;
+  font-weight: 400;
+  margin: 1rem 0;
+  text-align: justify;
+}
+.section-linkes {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 35px;
+  font-weight: 400;
+  font-family: sans-serif;
+  text-align: justify;
+}
+.emailId,
+.contact,
+.address {
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+.contactLinkes {
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+.copyright-policy {
+  width: 72%;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+.copyright-div > span {
+  font-size: 14px;
+  line-height: 30px;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+.copyright-div > a {
+  font-size: 15px;
+  line-height: 30px;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.socialMedia-icons {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.footer-icons {
+  width: 40px;
+  height: 33px;
+  border-radius: 20px;
+  background-color: #fff;
+  position: relative;
+  text-align: center;
+}
+.footer-icons > i {
+  position: absolute;
+  top: 18%;
+  left: 23%;
+  margin: auto;
+  font-size: 22px;
+  color: #0c71a7;
+  font-weight: 600;
+}
+/* Media query for iPad Mini and Air Start... */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .footer-container {
+    display: block;
+    width: 100%;
+    gap: 1.5rem;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer-container > div {
+    margin-left: 1.5rem;
+  }
+  .about-footer,
+  .footer-heading,
+  .contactLinkes {
+    line-height: 25px;
+  }
+  .copyright-policy {
+    width: 92%;
+  }
+}
+/* Media query for iPad Mini and Air End... */
+
+/* Media query for Phone Start... */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .footer-container {
+    display: block;
+    width: 100%;
+    gap: 1rem;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer-container > div {
+    margin: 0 0.3rem;
+  }
+  .about-footer,
+  .footer-heading,
+  .contactLinkes {
+    line-height: 25px;
+    font-size: 15px;
+  }
+  .copyright-policy {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .copyright-div {
+    margin-left: 5px;
+  }
+  .copyright-div > span {
+    font-size: 13px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: 400;
+  }
+  .copyright-div > a {
+    font-size: 13px;
+    display: flex;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+  }
+}
+
+/* Media query for Phone End... */
