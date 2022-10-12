@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
- export const Support = () => {
+
+export const Support = () => {
   return (
     <div className="supportMain-container">
       <div className="mainHeading-div">

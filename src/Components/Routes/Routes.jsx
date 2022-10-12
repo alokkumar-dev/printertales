@@ -7,12 +7,13 @@ import { ContactUs } from "../ContactUs";
 import { HomePage } from "../HomePage";
 import { Support } from "../Support";
 import { Footer } from "../Footer";
-
 import "../../StyleSheets/HomePage.css";
+
 export const AllRoutes = () => {
   return (
     <>
       <ResponsiveAppBar />
+
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/support" element={<Support />} />
@@ -21,6 +22,7 @@ export const AllRoutes = () => {
         <Route path="/knowledge" element={<KnowledgeBase />} />
         <Route path="/knowledge/:id" element={<KnowledgeBaseBlog />} />
       </Routes>
+
       <div className="footer">
         <Footer />
       </div>

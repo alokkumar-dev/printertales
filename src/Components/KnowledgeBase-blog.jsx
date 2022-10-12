@@ -1,9 +1,9 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+
 export const KnowledgeBaseBlog = () => {
   const [blogData, setBlogData] = useState({});
-
   const { id } = useParams();
 
   const getBlogData = () => {

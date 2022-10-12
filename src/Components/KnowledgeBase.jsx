@@ -100,8 +100,7 @@ export const KnowledgeBase = () => {
                 pageCounter(-6);
               }
             }}
-            disabled={page <= 0}
-          >
+            disabled={page <= 0}>
             Prev
           </button>
           <button
@@ -109,8 +108,7 @@ export const KnowledgeBase = () => {
             onClick={() => {
               pageCounter(6);
             }}
-            disabled={page > dataPage.length - 6}
-          >
+            disabled={page > dataPage.length - 6}>
             Next
           </button>
         </div>

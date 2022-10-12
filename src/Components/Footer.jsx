@@ -19,33 +19,28 @@ export const Footer = () => {
           <div className="socialMedia-icons">
             <a
               href="https://www.facebook.com/Printertales/"
-              className="footer-icons"
-            >
+              className="footer-icons">
               <i className="fa fa-facebook-square" aria-hidden="true"></i>
             </a>
 
             <a
               href="https://www.instagram.com/printer.tales/"
-              className="footer-icons"
-            >
+              className="footer-icons">
               <i className="fa fa-instagram" aria-hidden="true"></i>
             </a>
             <a
               href="https://twitter.com/Printertales2"
-              className="footer-icons"
-            >
+              className="footer-icons">
               <i className="fa fa-twitter" aria-hidden="true"></i>
             </a>
             <a
               href="https://www.linkedin.com/company/printertales/"
-              className="footer-icons"
-            >
+              className="footer-icons">
               <i className="fa fa-linkedin-square" aria-hidden="true"></i>
             </a>
             <a
               href="https://pinterest.com/printertales/"
-              className="footer-icons"
-            >
+              className="footer-icons">
               <i className="fa fa-pinterest" aria-hidden="true"></i>
             </a>
           </div>
