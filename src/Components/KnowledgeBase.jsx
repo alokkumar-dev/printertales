@@ -11,9 +11,11 @@ export const KnowledgeBase = () => {
   const [page, setPage] = useState(0);
 
   const getBlogData = () => {
-    axios.get(`https://printertales.herokuapp.com/blog?limit=6&page=${page}`).then((res) => {
-      setData(res.data);
-    });
+    axios
+      .get(`https://printertales.herokuapp.com/blog?limit=6&page=${page}`)
+      .then((res) => {
+        setData(res.data);
+      });
   };
   const getBlogDataForLength = () => {
     axios.get("https://printertales.herokuapp.com/blog").then((res) => {
@@ -21,9 +23,11 @@ export const KnowledgeBase = () => {
     });
   };
   const getSearchBlog = () => {
-    axios.get(`https://printertales.herokuapp.com/blog/search/${search}`).then((res) => {
-      setSearchData(res.data);
-    });
+    axios
+      .get(`https://printertales.herokuapp.com/blog/search/${search}`)
+      .then((res) => {
+        setSearchData(res.data);
+      });
   };
 
   const handleSearch = (e) => {
@@ -108,7 +112,7 @@ export const KnowledgeBase = () => {
             onClick={() => {
               pageCounter(6);
             }}
-            disabled={page > dataPage.length - 6}>
+            disabled={page >= dataPage.length - 6}>
             Next
           </button>
         </div>
