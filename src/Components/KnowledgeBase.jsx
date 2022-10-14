@@ -11,17 +11,17 @@ export const KnowledgeBase = () => {
   const [page, setPage] = useState(0);
 
   const getBlogData = () => {
-    axios.get(`http://localhost:8080/blog?limit=6&page=${page}`).then((res) => {
+    axios.get(`https://printertales.herokuapp.com/blog?limit=6&page=${page}`).then((res) => {
       setData(res.data);
     });
   };
   const getBlogDataForLength = () => {
-    axios.get("http://localhost:8080/blog").then((res) => {
+    axios.get("https://printertales.herokuapp.com/blog").then((res) => {
       setDataPage(res.data);
     });
   };
   const getSearchBlog = () => {
-    axios.get(`http://localhost:8080/blog/search/${search}`).then((res) => {
+    axios.get(`https://printertales.herokuapp.com/blog/search/${search}`).then((res) => {
       setSearchData(res.data);
     });
   };

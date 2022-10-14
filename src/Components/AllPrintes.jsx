@@ -34,12 +34,12 @@ export const AllPrinters = () => {
                   <td className="printer-table-cells">
                     Packed with tons of features, the HP DeskJet Plus 4155 is
                     the coolest printer for home and small office environments.
-                    Powered by HP’s 35-page auto-feeder and dynamic security,
-                    this printer brings in high productivity by cutting down the
-                    per-page cost by a considerable margin. Plus, it offers you
-                    the lowest total cost of ownership in comparable printers
-                    and is compatible with most operating systems and media
-                    devices.{" "}
+                    Powered by HP&rsquo;s 35-page auto-feeder and dynamic
+                    security, this printer brings in high productivity by
+                    cutting down the per-page cost by a considerable margin.
+                    Plus, it offers you the lowest total cost of ownership in
+                    comparable printers and is compatible with most operating
+                    systems and media devices.{" "}
                   </td>
                 </tr>
               </tbody>
