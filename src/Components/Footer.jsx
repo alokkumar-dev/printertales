@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const Footer = () => {
   return (
     <>
@@ -19,49 +21,54 @@ export const Footer = () => {
           <div className="socialMedia-icons">
             <a
               href="##https://www.facebook.com/Printertales/"
-              className="footer-icons">
+              className="footer-icons"
+            >
               <i className="fa fa-facebook-square" aria-hidden="true"></i>
             </a>
 
             <a
               href="##https://www.instagram.com/printer.tales/"
-              className="footer-icons">
+              className="footer-icons"
+            >
               <i className="fa fa-instagram" aria-hidden="true"></i>
             </a>
             <a
               href="##https://twitter.com/Printertales2"
-              className="footer-icons">
+              className="footer-icons"
+            >
               <i className="fa fa-twitter" aria-hidden="true"></i>
             </a>
             <a
               href="##https://www.linkedin.com/company/printertales/"
-              className="footer-icons">
+              className="footer-icons"
+            >
               <i className="fa fa-linkedin-square" aria-hidden="true"></i>
             </a>
             <a
               href="##https://pinterest.com/printertales/"
-              className="footer-icons">
+              className="footer-icons"
+            >
               <i className="fa fa-pinterest" aria-hidden="true"></i>
             </a>
           </div>
         </div>
         <div className="company-side">
           <h1 className="footer-heading">Company</h1>
-          <a href="##" className="section-linkes">
+          <Link to={"/"} className="section-linkes">
             Home
-          </a>
+          </Link>
           <br />
-          <a href="##" className="section-linkes">
+          <Link to={"/knowledge"} className="section-linkes">
             Knowledge Base
-          </a>
+          </Link>
           <br />
-          <a href="##" className="section-linkes">
+          <Link to={"/support"} className="section-linkes">
             Support
-          </a>
+          </Link>
           <br />
-          <a href="##" className="section-linkes">
+          <Link to={"/contact_us"} className="section-linkes">
             Contact Us
-          </a>
+          </Link>
           <br />
         </div>
         <div className="issue-side">
