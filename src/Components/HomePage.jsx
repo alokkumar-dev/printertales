@@ -38,8 +38,6 @@ export const HomePage = () => {
               in real-time as a printer can show errors anytime. With Printer
               Tales, you&rsquo;ve expert help right at your fingertips whenever
               and wherever you want. Just give us a call any time of the day,
-              and we&rsquo;ll ensure that your printer issue gets solved as soon
-              as possible.
             </p>
           </div>
         </div>

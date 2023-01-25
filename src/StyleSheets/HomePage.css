@@ -34,6 +34,15 @@
   font-weight: 600;
   margin: 1rem 0;
 }
+
+.supportCard .supportDes{
+  margin-left: 5rem;
+}
+
+.supportCard .supportDes .support-heading{
+  margin-top: 0;
+}
+
 .support-pera {
   font-family: "Nunito", sans-serif;
   color: #000;
