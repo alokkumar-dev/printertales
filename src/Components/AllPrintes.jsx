@@ -37,9 +37,7 @@ export const AllPrinters = () => {
                     Powered by HP&rsquo;s 35-page auto-feeder and dynamic
                     security, this printer brings in high productivity by
                     cutting down the per-page cost by a considerable margin.
-                    Plus, it offers you the lowest total cost of ownership in
-                    comparable printers and is compatible with most operating
-                    systems and media devices.{" "}
+                    {" "}
                   </td>
                 </tr>
               </tbody>
