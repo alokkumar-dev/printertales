@@ -7,7 +7,7 @@ export const KnowledgeBaseBlog = () => {
   const { id } = useParams();
 
   const getBlogData = () => {
-    axios.get(`https://printertales.herokuapp.com/blog/${id}`).then((res) => {
+    axios.get(`https://good-plum-bull-gear.cyclic.app/blog/${id}`).then((res) => {
       setBlogData(res.data);
     });
   };

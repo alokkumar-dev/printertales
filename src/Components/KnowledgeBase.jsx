@@ -12,19 +12,19 @@ export const KnowledgeBase = () => {
 
   const getBlogData = () => {
     axios
-      .get(`https://printertales.herokuapp.com/blog?limit=6&page=${page}`)
+      .get(`https://good-plum-bull-gear.cyclic.app/blog?limit=6&page=${page}`)
       .then((res) => {
         setData(res.data);
       });
   };
   const getBlogDataForLength = () => {
-    axios.get("https://printertales.herokuapp.com/blog").then((res) => {
+    axios.get("https://good-plum-bull-gear.cyclic.app/blog").then((res) => {
       setDataPage(res.data);
     });
   };
   const getSearchBlog = () => {
     axios
-      .get(`https://printertales.herokuapp.com/blog/search/${search}`)
+      .get(`https://good-plum-bull-gear.cyclic.app/blog/search/${search}`)
       .then((res) => {
         setSearchData(res.data);
       });

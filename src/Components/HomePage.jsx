@@ -7,7 +7,7 @@ export const HomePage = () => {
   const [blogData, setBlogData] = useState([]);
 
   const getBlogData = () => {
-    axios.get("https://printertales.herokuapp.com/blog").then((res) => {
+    axios.get("https://good-plum-bull-gear.cyclic.app/blog").then((res) => {
       setBlogData(res.data.slice(2, 6));
     });
   };
