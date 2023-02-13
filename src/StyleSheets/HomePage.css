@@ -65,7 +65,7 @@
 .learningCard-maping {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  width: 72%;
+  width: 90%;
   margin: 2rem auto;
   gap: 2.3rem;
 }
@@ -126,7 +126,7 @@
   font-weight: 600;
   font-family: sans-serif;
   color: #000000;
-  margin: 15px 0;
+  margin: 0px 0px 10px 0px;
   text-align: justify;
 }
 .learningTitle-desc {
@@ -136,7 +136,7 @@
   text-align: justify;
   font-weight: 400;
   color: #000000;
-  margin-bottom: 1em;
+  margin-bottom: .6em;
 }
 .trandingLink {
   text-decoration: none;
