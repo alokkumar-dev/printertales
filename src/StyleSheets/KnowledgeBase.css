@@ -95,7 +95,7 @@
   grid-template-columns: repeat(3, 1fr);
   margin: 5rem auto;
   display: grid;
-  width: 60%;
+  width: 85%;
   gap: 30px;
 }
 .knowledgeBase_card {
@@ -173,7 +173,7 @@
 
 /* styles for blog start here... */
 .blogMain-container {
-  width: 70%;
+  width: 85%;
   margin: 95px auto;
   display: flex;
   gap: 20px;
