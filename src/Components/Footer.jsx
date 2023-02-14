@@ -113,7 +113,7 @@ export const Footer = () => {
       <div className="copyright-policy">
         <div className="copyright-div">
           <span> Copyright © 2022. Designed by</span>{" "}
-          <a href="##">Alok Kumar</a>
+          <a href="https://portfolio-site-ashen.vercel.app/" target={"_blank"}>Alok Kumar</a>
         </div>
         <div className="copyright-div">
           <a href="##">Privacy Policy</a>
