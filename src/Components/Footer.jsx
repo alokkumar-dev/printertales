@@ -20,32 +20,32 @@ export const Footer = () => {
           </p>
           <div className="socialMedia-icons">
             <a
-              href="##https://www.facebook.com/Printertales/"
+              href="##"
               className="footer-icons"
             >
               <i className="fa fa-facebook-square" aria-hidden="true"></i>
             </a>
 
             <a
-              href="##https://www.instagram.com/printer.tales/"
+              href="##"
               className="footer-icons"
             >
               <i className="fa fa-instagram" aria-hidden="true"></i>
             </a>
             <a
-              href="##https://twitter.com/Printertales2"
+              href="##"
               className="footer-icons"
             >
               <i className="fa fa-twitter" aria-hidden="true"></i>
             </a>
             <a
-              href="##https://www.linkedin.com/company/printertales/"
+              href="##"
               className="footer-icons"
             >
               <i className="fa fa-linkedin-square" aria-hidden="true"></i>
             </a>
             <a
-              href="##https://pinterest.com/printertales/"
+              href="##"
               className="footer-icons"
             >
               <i className="fa fa-pinterest" aria-hidden="true"></i>
@@ -113,7 +113,7 @@ export const Footer = () => {
       <div className="copyright-policy">
         <div className="copyright-div">
           <span> Copyright © 2022. Designed by</span>{" "}
-          <a href="https://portfolio-site-ashen.vercel.app/" target={"_blank"}>Alok Kumar</a>
+          <a href="https://alokkumar-dev.vercel.app/" target={"_blank"}>Alok Kumar</a>
         </div>
         <div className="copyright-div">
           <a href="##">Privacy Policy</a>
